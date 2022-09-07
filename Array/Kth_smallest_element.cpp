@@ -1,3 +1,9 @@
+
+/*
+https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1
+*/
+
+
 //{ Driver Code Starts
 //Initial function template for C++
 
@@ -15,14 +21,14 @@ class Solution{
     // k : find kth smallest element and return using this function
     int kthSmallest(int arr[], int l, int r, int k) {
         //code here
-        priority_queue<int>q;
+        priority_queue<int>pq;
         for(int i=l;i<=r;i++){
-            q.push(arr[i]);
-            if(q.size()>k){
-                q.pop();
+            pq.push(arr[i]);
+            if(pq.size()>k){
+                pq.pop();
             }
         }
-        return q.top();
+        return pq.top();
     }
 };
 

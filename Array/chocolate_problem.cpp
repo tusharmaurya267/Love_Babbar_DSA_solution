@@ -1,14 +1,17 @@
+/*
+https://www.geeksforgeeks.org/chocolate-distribution-problem/
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int chocolate(int *arr, int n, int m){
     sort(arr,arr+n);
-    int maxi=INT_MAX;
+    int mini=INT_MAX;
     int j=m-1;
-    for(int i=0;i<n-m;i++,j++){
+    for(int i=0;j<n;i++,j++){
         int diff=arr[j]-arr[i];
-        maxi=min(diff,maxi);
+        mini=min(diff,mini);
     }
-    return maxi;
+    return mini;
     
 }
 int main(){
