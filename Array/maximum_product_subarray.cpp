@@ -1,3 +1,7 @@
+/*
+https://leetcode.com/problems/maximum-product-subarray/submissions/
+*/
+
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
