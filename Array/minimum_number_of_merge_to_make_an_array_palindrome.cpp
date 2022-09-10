@@ -1,4 +1,8 @@
 
+/*
+https://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/
+*/
+
 // C++ program to find number of operations
 // to make an array palindrome
 #include <bits/stdc++.h>
