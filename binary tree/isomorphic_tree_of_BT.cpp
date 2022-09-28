@@ -1,3 +1,20 @@
+/*
+https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1
+*/
+
+
+/*
+struct Node {
+    int data;
+    Node *left;
+    Node *right;
+
+    Node(int val) {
+        data = val;
+        left = right = NULL;
+    }
+};
+*/
 
 class Solution{
   public:

@@ -31,13 +31,4 @@ void printCombination(int arr[], int n, int r)
     int data[r];  
     combinationUtil(arr, n, r, 0, data, 0);
 } 
- 
-// Driver code
-int main()
-{
-    int arr[] = {1, 2, 3, 4, 5};
-    int r = 3;
-    int n = sizeof(arr)/sizeof(arr[0]);
-    printCombination(arr, n, r);
-    return 0;
-}
+

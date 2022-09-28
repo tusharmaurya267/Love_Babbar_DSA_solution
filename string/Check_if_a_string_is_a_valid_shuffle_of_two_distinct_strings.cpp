@@ -1,5 +1,6 @@
-#include<bits/stdc++.h>
-using namespace std;
+/*
+https://www.geeksforgeeks.org/check-if-the-given-string-is-shuffled-substring-of-another-string/
+*/
 
 int main(){
     string str1,str2;

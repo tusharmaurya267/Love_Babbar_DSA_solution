@@ -12,24 +12,3 @@ void rotate(int *arr,int start,int end)
         end--;
     }
 }
-
-void print(int *arr,int n)
-{
-    for(int i=0;i<n;i++)
-    {
-        cout << arr[i] << " ";
-    }
-}
-
-int main()
-{
-    int n;
-    cin >> n ;
-    int *arr=new int[n];
-    for(int i=0;i<n;i++)
-    {
-        cin >> arr[i];
-    }
-    rotate(arr,0,n-1);
-    print(arr,n);
-}

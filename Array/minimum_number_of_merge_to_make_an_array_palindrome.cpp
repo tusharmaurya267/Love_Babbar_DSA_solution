@@ -3,11 +3,6 @@
 https://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/
 */
 
-// C++ program to find number of operations
-// to make an array palindrome
-#include <bits/stdc++.h>
-using namespace std;
- 
 int findMinOps(int arr[], int n)
 {
     int i=0;
@@ -33,15 +28,3 @@ int findMinOps(int arr[], int n)
     return count;
 }
  
-// Driver program to test above
-int main()
-{
-    int n;
-    cin >> n;
-    int *arr=new int[n];
-    for(int i=0;i<n;i++){
-        cin >> arr[i];
-    }
-    cout << "Count of minimum operations is " <<  findMinOps(arr, n) << endl;
-    return 0;
-}

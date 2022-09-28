@@ -1,5 +1,6 @@
-#include<bits/stdc++.h>
-using namespace std;
+/*
+https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/
+*/
 
 void duplicate(string str){
     for(int i=0;i<str.length();i++){
@@ -10,11 +11,4 @@ void duplicate(string str){
             }
         }
     }
-}
-
-int main(){
-    string str;
-    cin >> str;
-    duplicate(str);
-    return 0;
 }
