@@ -2,15 +2,6 @@
 https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1
 */
 
-
-/* A binary tree node
-struct Node
-{
-    int data;
-    Node* left, * right;
-}; */
-
-
 vector<int> diagonal(Node *root)
 {
    // your code here

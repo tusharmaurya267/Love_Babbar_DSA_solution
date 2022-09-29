@@ -2,22 +2,6 @@
 https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1
 */
 
-
-/* A binary tree node structure
-
-struct Node
-{
-    int data;
-    struct Node* left;
-    struct Node* right;
-    
-    Node(int x){
-        data = x;
-        left = right = NULL;
-    }
-};
- */
-
 class Solution{
     public:
     //Function to check whether a binary tree is balanced or not.

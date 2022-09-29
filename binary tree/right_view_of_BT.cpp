@@ -3,20 +3,6 @@ https://practice.geeksforgeeks.org/problems/right-view-of-binary-tree/1
 */
 
 
-/* A binary tree node has data, pointer to left child
-   and a pointer to right child 
-struct Node
-{
-    int data;
-    struct Node* left;
-    struct Node* right;
-    
-    Node(int x){
-        data = x;
-        left = right = NULL;
-    }
-}; */
-
 // class Solution
 // {
 //     public:
@@ -47,7 +33,6 @@ struct Node
 class Solution
 {
     public:
-    //Function to return list containing elements of right view of binary tree.
 
     void solve(Node* root ,vector<int>&ans, int lvl){
     if(!root)return;

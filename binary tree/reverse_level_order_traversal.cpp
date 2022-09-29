@@ -2,14 +2,6 @@
 https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1
 */
 
-
-/*   
-struct Node
-{
-    int data;
-    Node* left;
-    Node* right;
-}; */
 vector<int> reverseLevelOrder(Node *root)
 {
     if(!root) return{};

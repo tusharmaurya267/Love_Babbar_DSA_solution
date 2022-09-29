@@ -2,20 +2,9 @@
 https://practice.geeksforgeeks.org/problems/leaf-at-same-level/1
 */
 
-
-/* The structure of the binary tree is as follows
-struct Node
-{
-    int data;
-    Node* left;
-    Node* right;
-};
-*/
-
 class Solution{
   public:
-    /*You are required to complete this method*/
-    
+
     // bool solve(Node *root ,int lvl , int initial){
     //     if(!root) return true;
     //     if(!root->left && !root->right){

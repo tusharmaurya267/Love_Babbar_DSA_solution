@@ -2,7 +2,6 @@
 https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
 */
 
-
 class Solution {
   public:
     vector <int> bottomView(Node *root) {

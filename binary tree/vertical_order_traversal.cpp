@@ -2,11 +2,9 @@
 https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1
 */
 
-
 class Solution
 {
     public:
-    //Function to find the vertical order traversal of Binary Tree.
     
     vector<int> verticalOrder(Node *root)
     {

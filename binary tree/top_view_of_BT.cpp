@@ -2,20 +2,9 @@
 https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 */
 
-
-/*
-struct Node
-{
-    int data;
-    Node* left;
-    Node* right;
-};
-*/
 class Solution
 {
     public:
-    //Function to return a list of nodes visible from the top view 
-    //from left to right in Binary Tree.
     vector<int> topView(Node *root)
     {
         //Your code here

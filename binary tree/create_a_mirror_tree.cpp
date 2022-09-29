@@ -2,7 +2,6 @@
 https://practice.geeksforgeeks.org/problems/mirror-tree/1
 */
  
-// Function to convert to  mirror tree
 treenode* mirrorTree(node* root)
 {
     // Base Case

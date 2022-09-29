@@ -2,10 +2,8 @@
 https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1
 */
 
-
 class Solution{
     public:
-    //Function to store the zig zag order traversal of tree in a list.
     vector <int> zigZagTraversal(Node* root)
     {
     	// Code here

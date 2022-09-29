@@ -1,5 +1,4 @@
 /*
-
 https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
 */
 
@@ -16,9 +15,7 @@ public:
             if(curr->left) curr=curr->left;
             else curr=curr->right;
         }
-        // for(int i=0;i<v.size();i++){
-        //     cout <<v[i] << " ";
-        // }
+        
     }
     void addright(Node *root , vector<int>&v ){
         Node *curr=root;
