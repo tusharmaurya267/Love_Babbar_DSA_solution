@@ -2,6 +2,24 @@
 https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1
 */
 
+// class Solution {
+// public:
+//     bool ans=true;
+//     int check(TreeNode* root){
+//         if(!root) return 0;
+//         int l=check(root->left);
+//         int r=check(root->right);
+//         if(abs(l-r)>1) { ans=false; }
+//         return max(l,r)+1;
+//     }
+//     bool isBalanced(TreeNode* root) {
+//         if(!root) return true;
+//         check(root);
+//         return ans;
+//     }
+// };
+
+
 class Solution{
     public:
     //Function to check whether a binary tree is balanced or not.
