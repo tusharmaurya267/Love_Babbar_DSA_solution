@@ -15,7 +15,6 @@ public:
             if(curr->left) curr=curr->left;
             else curr=curr->right;
         }
-        
     }
     void addright(Node *root , vector<int>&v ){
         Node *curr=root;

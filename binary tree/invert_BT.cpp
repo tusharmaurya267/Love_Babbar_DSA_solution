@@ -7,10 +7,10 @@ https://leetcode.com/problems/invert-binary-tree/submissions/
 //     TreeNode* invertTree(TreeNode* root) {
       
 //       if(!root) return nullptr;
-//       TreeNode *left=root->left;
-//       TreeNode *right=root->right;
-//       root->right=left;
-//       root->left=right;
+//       TreeNode *l=root->left;
+//       TreeNode *r=root->right;
+//       root->right=l;
+//       root->left=r;
 //       invertTree(root->left);
 //       invertTree(root->right);
        
