@@ -12,6 +12,7 @@ class Solution
         if(root->data==n1 || root->data==n2) return root;
         Node* lh=solve(root->left,n1,n2);
         Node* rh=solve(root->right,n1,n2);
+        if(!lh&&!rh) return nullptr;
         if(lh&&rh) return root;
         if(lh) return lh;
         if(rh) return rh;
