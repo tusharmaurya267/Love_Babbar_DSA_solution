@@ -1,3 +1,7 @@
+/*
+https://practice.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+*/
+
 class Solution {
 public:
     int minimumCostOfBreaking(vector<int> x, vector<int> y, int m, int n){
