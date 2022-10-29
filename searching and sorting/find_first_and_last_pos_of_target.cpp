@@ -1,3 +1,7 @@
+/*
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+*/
+
 class Solution {
 public:
     int bs(vector<int>& nums, int target, int start, int end, int left){
@@ -22,7 +26,7 @@ public:
         int ub=bs(nums,target,0,n-1,0);
         return {lb, ub};
     }
-    
+
     // vector<int> searchRange(vector<int>& nums, int target){
     //     int n=nums.size();
     //     int start=-1;
