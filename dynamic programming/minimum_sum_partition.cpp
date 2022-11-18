@@ -2,6 +2,15 @@
 https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
 */
 
+
+// min(sum1 -sum2)
+// sum2= total_sum - sum1
+// min((total_sum - sum1) - sum1)
+// min(total_sum - 2sum1)
+// find all the possibility of subset sum using dp 
+// store all the sum possible when n numbers are considered in range vector
+// find the min(total_sum - 2sum1)
+
 class Solution{
 
   public:

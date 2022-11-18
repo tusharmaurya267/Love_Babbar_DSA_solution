@@ -2,6 +2,11 @@
 https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1
 */
 
+// sum1 = sum2
+// if(total_sum is divisble by 2 then equal sum partition is possible)
+// calculate sum1 as it is equak to sum2
+
+
 class Solution{
 public:
     int equalPartition(int n, int arr[])
