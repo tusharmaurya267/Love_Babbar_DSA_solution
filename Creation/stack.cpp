@@ -1,31 +1,55 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// struct{
-//     int code;
-//     char desc[100];
-// }
-// void initstack(){
-//     TOP=-1;
-// }
 
-// int isEmpty(){
+struct Stack{
+    int *stack;
+    int top;
+    int capacity;
+    Stack(int c){
+        capacity=c;
+        top=-1;
+        stack=new int;
+    }
 
-// }
+    void POP(){
+        if(top==-1) cout << "\nStack Empty\n";
+        else{
+            top--;
+        }
+    }
 
-// int isFull(){
-//     if(TOP==-1)
-// }
-// int main(){
-//     int n;
-//     cin >> n;
-//     int choose;
-//     cin >> choose;
+    void PUSH(int data){
+        if(top==capacity-1) cout <<"\nStack Full\n";
+        else{
+            top++;
+            stack[top]=data;
+            
+        }
+    }
 
-//     if(choose<=0 || choose>=4) break;
-//     switch(choose){
-//         case 1: PUSH();
-//         case 2: POP();
-//     }
-// }
+    int PEEK(){
+        if(top==-1){ 
+            cout <<"\nStack Empty\n";
+            return -1;
+        }
+        return stack[top];
+    
+    }
+};
 
+int main(){
+    Stack s(5);
+    int x;
+    do{
+        cin >> x;
+        switch(x){
+            case 1: s.POP(); break;
+            case 2: int n;
+                    cin >> n;
+                    s.PUSH(n); break;
+            case 3: cout << s.PEEK() << endl; break;
+            default: cout << "Wrong choice";
+        }
+    }while(x==1 || x==2 || x==3);
+}

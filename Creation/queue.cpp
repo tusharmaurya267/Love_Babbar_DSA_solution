@@ -2,11 +2,9 @@
 using namespace std;
  
 struct Queue {
-    public:
     int front, rear, capacity;
     int* queue;
 
-    public:
     Queue(int c)
     {
         front = rear = 0;
@@ -68,6 +66,7 @@ struct Queue {
 };
 
 int main(){
+
     Queue q(5);
 
     int x;
@@ -81,7 +80,9 @@ int main(){
                     q.Enqueue(n); break;
             case 3: q.Front(); break;
             case 4: q.Display(); break;
-            default : cout << "Wrong selection";
+            default : cout << "Wrong selection" << endl;
         }
     }while(x==1 || x==2 || x==3 || x==4);
+
+    return 0;
 }
